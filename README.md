@@ -1,4 +1,4 @@
-# jquery-materialize-named-dropdown
+# jquery-materialize-labelled-dropdown
 
 This plugin provides a [jQuery](https://jquery.com/) extension that wraps the
 dropdown in [Materialize](http://materializecss.com/) and keeps the trigger of
@@ -7,7 +7,7 @@ act like a `select` while keeping a consistent look and feel.
 
 ## Usage
 
-[Demo](https://c-w.github.io/jquery-materialize-named-dropdown/)
+[Demo](https://c-w.github.io/jquery-materialize-labelled-dropdown/)
 
 ### Markup
 
@@ -16,7 +16,7 @@ act like a `select` while keeping a consistent look and feel.
   <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-named-dropdown/master/jquery-materialize-named-dropdown.min.js'></script>
+    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/master/jquery-materialize-labelled-dropdown.min.js'></script>
 
     <link type='text/css' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   </head>
@@ -45,7 +45,7 @@ act like a `select` while keeping a consistent look and feel.
 
     <script type='text/javascript'>
       $(document).ready(function() {
-        $('.dropdown-button').named_dropdown();
+        $('.dropdown-button').labelled_dropdown();
       });
     </script>
   </body>
@@ -62,5 +62,5 @@ act like a `select` while keeping a consistent look and feel.
   will be dynamically replaced with the value selected in the dropdown.
 - Mark-up onw of the dropdown elements with the `active` class. The value of
   this element will be used as the initial text on the dropdown label.
-- Instead of using `dropdown` to initialize the dropdown, call `named_dropdown`.
+- Instead of using `dropdown` to initialize the dropdown, call `labelled_dropdown`.
 - That's all.
