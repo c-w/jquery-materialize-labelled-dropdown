@@ -25,7 +25,10 @@
       $trigger.dropdown();
       updateLabel($activeItem.text());
       $items.click(function() {
-        updateLabel($(this).text());
+        var $this = $(this);
+        $items.removeClass('active');
+        $this.addClass('active');
+        updateLabel($this.text());
       });
     });
   };
