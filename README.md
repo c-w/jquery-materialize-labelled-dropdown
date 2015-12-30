@@ -16,7 +16,7 @@ act like a `select` while keeping a consistent look and feel.
   <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/master/jquery-materialize-labelled-dropdown.min.js'></script>
+    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/814ee8a/jquery-materialize-labelled-dropdown.min.js'></script>
 
     <link type='text/css' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   </head>
