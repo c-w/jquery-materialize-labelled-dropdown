@@ -9,6 +9,8 @@ act like a `select` while keeping a consistent look and feel.
 
 [Demo](https://c-w.github.io/jquery-materialize-named-dropdown/)
 
+### Markup
+
 ```html
 <html>
   <head>
@@ -49,3 +51,16 @@ act like a `select` while keeping a consistent look and feel.
   </body>
 </html>
 ```
+
+### Step-by-step
+
+- Create a [Materialize dropdown](http://materializecss.com/navbar.html#navbar-dropdown).
+- Mark-up the elements in the dropdown with the class `dropdown-item`.
+- Mark-up the dropdown label with the class `dropdown-label`.
+- Add a `data-format` attribute to the dropdown-label. This format string is
+  used to determine the text displayed in the label. The `{0}` placeholder
+  will be dynamically replaced with the value selected in the dropdown.
+- Mark-up onw of the dropdown elements with the `active` class. The value of
+  this element will be used as the initial text on the dropdown label.
+- Instead of using `dropdown` to initialize the dropdown, call `named_dropdown`.
+- That's all.
