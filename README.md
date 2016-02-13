@@ -16,16 +16,16 @@ act like a `select` while keeping a consistent look and feel.
   <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/814ee8a/jquery-materialize-labelled-dropdown.min.js'></script>
+    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/c813264/jquery-materialize-labelled-dropdown.min.js'></script>
 
     <link type='text/css' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   </head>
 
   <body>
     <ul class='dropdown-content' id='my-content'>
-      <li class='dropdown-item'><a>One</a></li>
-      <li class='dropdown-item active'><a>Two</a></li>
-      <li class='dropdown-item'><a>Three</a></li>
+      <li class='dropdown-item'><a><span class='dropdown-label-text'>Label</span> (this text in parentheses won't show up in the label)</a></li>
+      <li class='dropdown-item active'><a><span class='dropdown-label-text'>One</span></a></li>
+      <li class='dropdown-item'><a><span class='dropdown-label-text'>Two</span></a></li>
     </ul>
 
     <div class='navbar-fixed'>
@@ -57,6 +57,8 @@ act like a `select` while keeping a consistent look and feel.
 - Create a [Materialize dropdown](http://materializecss.com/navbar.html#navbar-dropdown).
 - Mark-up the elements in the dropdown with the class `dropdown-item`.
 - Mark-up the dropdown label with the class `dropdown-label`.
+- Mark-up the text in the dropdown-items that should be shown in the
+  dropdown-label with the class `dropdown-label-text`.
 - Add a `data-format` attribute to the dropdown-label. This format string is
   used to determine the text displayed in the label. The `{0}` placeholder
   will be dynamically replaced with the value selected in the dropdown.
