@@ -16,7 +16,7 @@ act like a `select` while keeping a consistent look and feel.
   <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/c813264/jquery-materialize-labelled-dropdown.min.js'></script>
+    <script type='text/javascript' src='https://cdn.rawgit.com/c-w/jquery-materialize-labelled-dropdown/a5d4acc/jquery-materialize-labelled-dropdown.min.js'></script>
 
     <link type='text/css' rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   </head>
@@ -45,7 +45,7 @@ act like a `select` while keeping a consistent look and feel.
 
     <script type='text/javascript'>
       $(document).ready(function() {
-        $('.dropdown-button').labelled_dropdown();
+        $('.dropdown-button').labelledDropdown();
       });
     </script>
   </body>
@@ -64,5 +64,5 @@ act like a `select` while keeping a consistent look and feel.
   will be dynamically replaced with the value selected in the dropdown.
 - Mark-up onw of the dropdown elements with the `active` class. The value of
   this element will be used as the initial text on the dropdown label.
-- Instead of using `dropdown` to initialize the dropdown, call `labelled_dropdown`.
+- Instead of using `dropdown` to initialize the dropdown, call `labelledDropdown`.
 - That's all.
