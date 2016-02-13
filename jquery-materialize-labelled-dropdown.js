@@ -9,7 +9,7 @@
     return str;
   }
 
-  $.fn.labelled_dropdown = function() {
+  $.fn.labelledDropdown = function() {
     var $trigger = this;
     var $content = $('#' + $trigger.data('activates'));
     var $items = $content.find('.dropdown-item');
