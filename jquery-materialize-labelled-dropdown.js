@@ -23,12 +23,12 @@
 
     $(document).ready(function() {
       $trigger.dropdown();
-      updateLabel($activeItem.text());
+      updateLabel($activeItem.find('.dropdown-label-text').text());
       $items.click(function() {
         var $this = $(this);
         $items.removeClass('active');
         $this.addClass('active');
-        updateLabel($this.text());
+        updateLabel($this.find('.dropdown-label-text').text());
       });
     });
   };
