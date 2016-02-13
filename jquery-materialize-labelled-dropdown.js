@@ -9,7 +9,7 @@
     return str;
   }
 
-  $.fn.labelledDropdown = function() {
+  $.fn.labelledDropdown = function(options) {
     var $trigger = this;
     var $content = $('#' + $trigger.data('activates'));
     var $items = $content.find('.dropdown-item');
@@ -22,7 +22,7 @@
     }
 
     $(document).ready(function() {
-      $trigger.dropdown();
+      $trigger.dropdown(options);
       updateLabel($activeItem.find('.dropdown-label-text').text());
       $items.click(function() {
         var $this = $(this);
